@@ -46,6 +46,15 @@
             padding-bottom: 15px;
             border-bottom: 1px dashed #ccc;
         }
+        .radio-group{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .checkbox-group{
+            display: flex;
+            flex-wrap: wrap;
+        }
 
         label {
             font-weight: bold;
@@ -75,6 +84,7 @@
             font-weight: normal;
             cursor: pointer;
             padding: 5px 0;
+            width: 150px;
         }
 
         .option-label input {
